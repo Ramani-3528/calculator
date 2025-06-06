@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CACULATOR</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+    <div>
+        <h1>CALCULATOR</h1>
+    </div>
+</header>
+<main>
+    <div class="calculation"><!--component-->
+        <div class="calculationContainer"><!--componentContainer-->
+            <div class="number1Body"><!--row-->
+                <div class="number1Block"><!--column-->
+                    <div class="number1Box"><!--subColumn-->
+                        <label for="num1">
+                            <h4>Number1: </h4>
+                        </label> 
+                        <input type="number" id="num1" value="">
+                    </div> 
+                </div>
+            </div>
+            <div class="number2Body"><!--row-->
+                <div class="number2Block"><!--column-->
+                    <div class="number2Box"><!--subColumn-->
+                        <label for="num2">
+                            <h4>Number2: </h4>
+                        </label> 
+                        <input type="number" id="num2" value="">
+                    </div> 
+                </div>
+            </div>
+            <div class="operatorBody"><!--row-->
+                <div class="operatorBlock"><!--column-->
+                    <div class="operatorBox"><!--subColumn-->
+                        <label for="operator">
+                            <h4>Operator: </h4>
+                        </label>
+                        <select id="calc">
+                            <option value="addition">+</option>
+                            <option value="subtraction">-</option>
+                            <option value="multiplication">*</option>
+                            <option value="division">/</option>
+                        </select>
+                    </div> 
+                </div>
+            </div>
+            <div class="resultBody"><!--row-->
+                <div class="resultBlock"><!--column-->
+                    <div class="resultBox"><!--subColumn-->
+                        <div class="result"><!--content-->
+                            <label for="result">
+                                <h4>Result: </h4>
+                            </label>
+                            
+                            <button onclick="calculate()">Calculate</button>
+                            <input type="text" id="result" readonly>
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</main>
+<footer></footer>
+    <script src="./app.js"></script>
+</body>
+</html>
