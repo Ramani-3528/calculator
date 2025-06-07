@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -12,34 +12,58 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(250, 248, 249);
+    background-color: #527fc3;
+    color: #333;
+    padding: 4rem 0rem 0rem 30rem;
 }
 h1{
+    font-family: "Arvo";
     font-size: 50px;
     font-weight: 800;
-    color: rgb(173, 100, 5);
+    color: #fbd097;
     text-align: center;
-    padding: 2rem 0rem 0.3rem;
+    padding: 0rem 0rem 0.3rem;
 }
 h4{
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: antiquewhite;
     padding-bottom: 1rem;
 }
+.screensize{
+    max-width: 600px;
+    margin: 4rem;
+}
+.dflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dflex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 button{
-    outline: rgb(12, 12, 12);
-    background-color: #ee958d;
-    padding: 0.5rem;
+    font-size: 15px;
     font-weight: 600px;
+    border:2px solid rgb(15, 13, 12);
+    background-color: #e8afa9;
+    padding: 0.5rem;
     border-radius: 6px;
     cursor: pointer;
+    letter-spacing: 1px;
+}
+button:hover{
+    background-color: rgb(80, 57, 57);
+    color: #faf8f9;
+    border:2px solid rgb(225, 218, 215);
 }
 .calculationContainer{
-    background-color: rgba(192, 82, 104, 0.986);
+    background: linear-gradient(135deg, #03093c, #0968ba);
     border-radius: 2rem;
-    margin: 3rem 30rem 3rem 30rem;
-    padding: 4rem 0rem 4rem;
+    padding: 4rem 6rem 4rem 6rem;
 }
 .number1Body{
     padding-bottom: 3rem;
