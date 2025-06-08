@@ -61,8 +61,8 @@ button {
     font-weight: 800px;
     background-color: #dededdc7;
     color: #0b0c0e;
-    border: 2px solid #06427f;
-    padding: 0.5rem;
+    border: 2px solid #0d0e0eca;
+    padding: 5px;
     border-radius: 6px;
     cursor: pointer;
     box-shadow: 0 0 8px rgba(8, 8, 8, 0.6);
@@ -82,6 +82,7 @@ button:hover {
     box-shadow: 0 0 15px rgba(8, 8, 8, 0.6);
 }
 
+input,
 select {
     background-color: #dededdc7;
     color: #0b0c0e;
@@ -89,20 +90,9 @@ select {
     border-radius: 6px;
     padding: 0.5rem;
     font-size: 16px;
+    outline: none;
     margin-bottom: 1rem;
     box-shadow: 0 0 8px rgba(21, 22, 23, 0.6);
-}
-
-input {
-    font-size: 16px;
-    background-color: #dededdc7;
-    color: #0b0c0e;
-    border: 2px solid #06427f;
-    border-radius: 6px;
-    padding: 0.6rem;
-    margin-bottom: 1rem;
-    outline: none;
-    box-shadow: 0 0 8px rgba(8, 8, 8, 0.6);
 }
 
 .number1Body {
@@ -136,40 +126,29 @@ input {
     }
 
     .calculation {
-        padding-top: 9rem;
+        margin-top: 5rem;
     }
 
     .calculationContainer {
         padding: 2rem 0rem 2rem;
-        /* margin: 1rem; */
         text-align: center;
     }
 
 
     button {
         font-size: 8px;
-        font-weight: 800px;
-        border: 2px solid #06427f;
         padding: 2px;
         border-radius: 4px;
         cursor: pointer;
-        letter-spacing: normal;
     }
 
+    input,
     select {
         border: 2px solid #06427f;
         border-radius: 3px;
         padding: 0.1rem;
         font-size: 9px;
         margin-bottom: 5px;
-    }
-
-    input {
-        font-size: 10px;
-        border: 2px solid #06427f;
-        border-radius: 3px;
-        padding: 0.1rem;
-        margin-bottom: 0.2rem;
     }
 
 }
