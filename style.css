@@ -109,21 +109,24 @@ input{
         color: #333;
         padding: 0rem;
     }
+    
     h1{
         font-size: 30px;
     }
+
     h4{
         font-size: 13px;
     }
+
     .calculation{
         padding: 4rem 8rem 0rem 8rem;
     }
+
     .calculationContainer{
         padding: 6rem 15rem 6rem 15rem;
-    }
-    .numbersBody{
         text-align: center;
     }
+
     button{
         font-size: 8px;
         font-weight: 800px;            
