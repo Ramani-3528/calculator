@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-wrap: pretty;
     /* border: 1px solid red; */
 }
-html{
+
+html {
     font-size: 62%;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: #4cbcfda7;
     color: #333;
     padding-top: 6rem;
 }
-h1{
+
+h1 {
     font-family: "Arvo";
     font-size: 50px;
     font-weight: 800;
@@ -24,66 +28,75 @@ h1{
     text-align: center;
     padding: 0rem 0rem 1rem;
 }
-h4{
+
+h4 {
     font-size: 25px;
     font-weight: 480;
     color: #add9f3d4;
     text-align: center;
     padding-top: 1rem;
 }
-.screensize{
+
+.screensize {
     max-width: 550px;
     margin: auto;
 }
-.dflex{
+
+.dflex {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.dflex-col{
+
+.dflex-col {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-button{
+
+button {
     font-family: "Arvo";
     font-size: 15px;
     font-weight: 800px;
-    background-color: #dededdc7; 
-    color: #0b0c0e;            
+    background-color: #dededdc7;
+    color: #0b0c0e;
     border: 2px solid #06427f;
     padding: 0.5rem;
     border-radius: 6px;
     cursor: pointer;
     box-shadow: 0 0 8px rgba(8, 8, 8, 0.6);
 }
-button:hover{
+
+button:hover {
     background-color: #64b3ecd0;
     color: #0f1011;
-    border:2px solid rgb(225, 218, 215);
+    border: 2px solid rgb(225, 218, 215);
 }
-.calculationContainer{
+
+.calculationContainer {
     background: linear-gradient(135deg, #03093c, #0968ba);
     border-radius: 2rem;
     padding: 4rem 6rem 4rem 6rem;
     text-align: center;
     box-shadow: 0 0 15px rgba(8, 8, 8, 0.6);
 }
-select{
-    background-color: #dededdc7; 
-    color: #0b0c0e;            
+
+select {
+    background-color: #dededdc7;
+    color: #0b0c0e;
     border: 2px solid #020202;
     border-radius: 6px;
     padding: 0.5rem;
-    font-size: 16px; 
+    font-size: 16px;
     margin-bottom: 1rem;
     box-shadow: 0 0 8px rgba(21, 22, 23, 0.6);
 }
-input{
+
+input {
     font-size: 16px;
-    background-color: #dededdc7; 
-    color: #0b0c0e;            
+    background-color: #dededdc7;
+    color: #0b0c0e;
     border: 2px solid #06427f;
     border-radius: 6px;
     padding: 0.6rem;
@@ -92,59 +105,65 @@ input{
     box-shadow: 0 0 8px rgba(8, 8, 8, 0.6);
 }
 
-.number1Body{
+.number1Body {
     padding-bottom: 3rem;
 }
-.number2Body{
+
+.number2Body {
     padding-bottom: 3rem;
 }
-.operatorBody{
-    padding-bottom: 3rem; 
+
+.operatorBody {
+    padding-bottom: 3rem;
 }
 
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
-@media (max-width: 576px){
-    body{
+@media (max-width: 576px) {
+    body {
         background-color: #8eb7f4;
         color: #333;
         padding: 0rem;
     }
-    
-    h1{
+
+    h1 {
         font-size: 30px;
     }
 
-    h4{
+    h4 {
         font-size: 13px;
     }
 
-    .calculation{
-        padding: 4rem 8rem 0rem 8rem;
+    .calculation {
+        padding: 1rem;
     }
 
-    .calculationContainer{
-        padding: 6rem 15rem 6rem 15rem;
+    .calculationContainer {
+        padding: 1.5rem;
+        margin: 1rem;
         text-align: center;
     }
 
-    button{
+
+    button {
         font-size: 8px;
-        font-weight: 800px;            
+        font-weight: 800px;
         border: 2px solid #06427f;
         padding: 2px;
         border-radius: 4px;
         cursor: pointer;
         letter-spacing: normal;
     }
-    select{            
+
+    select {
         border: 2px solid #06427f;
         border-radius: 3px;
         padding: 0.1rem;
-        font-size: 9px; 
+        font-size: 9px;
         margin-bottom: 5px;
     }
-    input{
-        font-size: 10px;           
+
+    input {
+        font-size: 10px;
         border: 2px solid #06427f;
         border-radius: 3px;
         padding: 0.1rem;
