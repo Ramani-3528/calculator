@@ -127,10 +127,12 @@ input {
 
     h1 {
         font-size: 30px;
+        text-wrap: balance;
     }
 
     h4 {
         font-size: 13px;
+        text-wrap: balance;
     }
 
     .calculation {
