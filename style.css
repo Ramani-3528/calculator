@@ -61,7 +61,7 @@ button {
     font-weight: 800px;
     background-color: #dededdc7;
     color: #0b0c0e;
-    border: 2px solid #0d0e0eca;
+    border: 2px solid #090a0afb;
     padding: 5px;
     border-radius: 6px;
     cursor: pointer;
@@ -70,7 +70,7 @@ button {
 
 button:hover {
     background-color: #64b3ecd0;
-    color: #0f1011;
+    color: #000509;
     border: 2px solid rgb(225, 218, 215);
 }
 
