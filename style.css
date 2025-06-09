@@ -110,9 +110,7 @@ select {
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 @media (max-width: 576px) {
     body {
-        background-color: #8eb7f4;
-        color: #333;
-        padding: 0rem;
+        /* padding: 0rem; */
     }
 
     h1 {
@@ -131,7 +129,7 @@ select {
     }
 
     .calculationContainer {
-        padding: 2rem 0rem 2rem 0rem;
+        padding: 2rem 4rem 2rem 4rem;
         text-align: center;
     }
 
