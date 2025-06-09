@@ -61,7 +61,7 @@ button {
     font-weight: 800px;
     background-color: #dededdc7;
     color: #0b0c0e;
-    border: 2px solid #090a0afb;
+    border: 2px solid #0a0b0bfb;
     padding: 5px;
     border-radius: 6px;
     cursor: pointer;
@@ -69,7 +69,7 @@ button {
 }
 
 button:hover {
-    background-color: #f4d387;
+    background-color: #87dcf4;
     color: #000509;
     border: 2px solid rgb(225, 218, 215);
 }
@@ -126,11 +126,12 @@ select {
     }
 
     .calculation {
-        margin-top: 5rem;
+        margin-top: 8rem;
+        padding: 0rem 8rem 0rem 8rem;
     }
 
     .calculationContainer {
-        padding: 2rem 0rem 2rem;
+        padding: 2rem 0rem 2rem 0rem;
         text-align: center;
     }
 
