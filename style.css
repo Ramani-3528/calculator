@@ -36,9 +36,6 @@ h4 {
     text-align: center;
     padding-top: 1rem;
 }
-.componentSpace{
-    margin: 5rem 0rem;
-}
 
 .screensize {
     max-width: 550px;
@@ -129,7 +126,7 @@ select {
     }
 
     .calculation {
-        padding: 8rem;
+        margin-top: 5rem;
     }
 
     .calculationContainer {
