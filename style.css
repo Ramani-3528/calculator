@@ -61,7 +61,7 @@ button {
     font-weight: 800px;
     background-color: #dededdc7;
     color: #0b0c0e;
-    border: 2px solid #0a0b0bfb;
+    border: 2px solid #090a0afb;
     padding: 5px;
     border-radius: 6px;
     cursor: pointer;
@@ -69,7 +69,7 @@ button {
 }
 
 button:hover {
-    background-color: #87dcf4;
+    background-color: #f4d387;
     color: #000509;
     border: 2px solid rgb(225, 218, 215);
 }
@@ -110,7 +110,9 @@ select {
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 @media (max-width: 576px) {
     body {
-        /* padding: 0rem; */
+        background-color: #8eb7f4;
+        color: #333;
+        padding: 0rem;
     }
 
     h1 {
@@ -124,12 +126,11 @@ select {
     }
 
     .calculation {
-        margin-top: 8rem;
-        padding: 0rem 8rem 0rem 8rem;
+        margin-top: 5rem;
     }
 
     .calculationContainer {
-        /* padding: 2rem 6rem 2rem 6rem; */
+        padding: 2rem 0rem 2rem;
         text-align: center;
     }
 
