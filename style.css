@@ -110,10 +110,9 @@ select {
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 @media (max-width: 576px) {
     body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding: 0rem;
     }
+
     h1 {
         font-size: 30px;
         text-wrap: balance;
