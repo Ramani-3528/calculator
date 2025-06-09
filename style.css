@@ -110,11 +110,14 @@ select {
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 @media (max-width: 576px) {
     body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center;     /* Center vertically */
         background-color: #8eb7f4;
-        color: #333;
-        padding: 0rem;
+        font-family: sans-serif;
     }
-
     h1 {
         font-size: 30px;
         text-wrap: balance;
