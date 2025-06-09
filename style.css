@@ -124,14 +124,14 @@ select {
     }
 
     .calculation {
-        margin-top: 5rem;
+        /* margin-top: 5rem; */
     }
 
     .calculationContainer {
         padding: 2rem 0rem 2rem;
         text-align: center;
     }
-    
+
     button {
         font-size: 8px;
         padding: 2px;
