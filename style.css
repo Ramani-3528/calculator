@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     text-wrap: pretty;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 html {
@@ -69,7 +69,7 @@ button {
 }
 
 button:hover {
-    background-color: #87dcf4c8;
+    background-color: #f4d387;
     color: #000509;
     border: 2px solid rgb(225, 218, 215);
 }
@@ -110,6 +110,8 @@ select {
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 @media (max-width: 576px) {
     body {
+        background-color: #8eb7f4;
+        color: #333;
         padding: 0rem;
     }
 
@@ -124,11 +126,44 @@ select {
     }
 
     .calculation {
-        /* margin-top: 5rem; */
+        margin: 6rem;
+    }
+
+    button {
+        font-size: 8px;
+        padding: 2px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input,
+    select {
+        border-radius: 3px;
+        padding: 0.1rem;
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+
+}
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+@media (max-width: 576px) {
+    body {
+        /* padding: 0rem; */
+    }
+
+    h1 {
+        font-size: 30px;
+        text-wrap: balance;
+    }
+
+    h4 {
+        font-size: 13px;
+        text-wrap: balance;
     }
 
     .calculationContainer {
-        padding: 2rem 0rem 2rem;
+        margin: 4rem;
         text-align: center;
     }
 
