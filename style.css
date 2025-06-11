@@ -109,6 +109,9 @@ select {
 
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 @media (max-width: 576px) {
+    body {
+        padding-top: 4rem;
+    }
 
     h1 {
         font-size: 30px;
