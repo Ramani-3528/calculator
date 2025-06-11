@@ -111,12 +111,12 @@ select {
 @media (max-width: 576px) {
 
     h1 {
-        font-size: 30px;
+        font-size: 25px;
         text-wrap: balance;
     }
 
     h4 {
-        font-size: 13px;
+        font-size: 12px;
         text-wrap: balance;
     }
 
