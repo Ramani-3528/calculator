@@ -110,29 +110,4 @@ select {
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 @media (max-width: 576px) {
 
-    h1 {
-        font-size: 25px;
-        text-wrap: balance;
-    }
-
-    h4 {
-        font-size: 12px;
-        text-wrap: balance;
-    }
-
-    button {
-        font-size: 8px;
-        padding: 2px;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-
-    input,
-    select {
-        border-radius: 3px;
-        padding: 0.1rem;
-        font-size: 9px;
-        margin-bottom: 5px;
-    }
-
 }
