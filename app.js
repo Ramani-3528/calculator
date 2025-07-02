@@ -10,7 +10,7 @@ function calculate(){
         case "subtraction":
             result = number1-number2;
             break;
-        case "multipilication":
+        case "multiplication":
             result = number1*number2;
             break;
         case "division":
